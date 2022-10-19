@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="images/hamburger-menu.svg">
+        <img class="youtube-logo" src="images/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="images/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative -->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="images/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="images/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img class="youtube-apps-icon" src="images/youtube-apps.svg">
+          <div class="tooltip">Apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="images/notifications.svg">
+          <div class="tooltip">Notification</div>
+          <div class="notifications-count">3</div>
+        </div>
+        <div class="current-user-picture-container">
+          <img class="current-user-picture" src="images/N.jpg">
+          <div class="tooltip">Account</div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="images/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="images/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="images/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="images/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="images/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="images/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/hq720.webp">
+            <div class="video-time">12:16</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/profile_sk.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Obradović: Napravljena Priča da Partizan Ima Para, a Istina je...
+              </p>
+              <p class="video-author">
+                Sport Klub
+              </p>
+              <p class="video-stats">
+                24K views &#183; 16 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/hq720 (1).webp">
+            <div class="video-time">04:05:05</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/profile_agelast.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Podcast 062: Aleksandar Matanović i Stefan Ignjatović — ECD (kriptovalute) korisnika Agelast pre 1 godine 4 sata i 5 minuta
+              </p>
+              <p class="video-author">
+                Agelast
+              </p>
+              <p class="video-stats">
+                186K views &#183; 1 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/hq720 (2).webp">
+            <div class="video-time">11:54:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/profile_peaky_blinders.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Crazy Tik Toks Taken Moments Before DISASTER
+              </p>
+              <p class="video-author">
+                JAZZ & BLUES
+              </p>
+              <p class="video-stats">
+                3.2M views &#183; 3 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/hq720 (3).webp">
+            <div class="video-time">01:42</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/profile_football.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Lionel Messi Destroyed Ac Milan (Barca Vs AC Milan)
+              </p>
+              <p class="video-author">
+                Football Highlights
+              </p>
+              <p class="video-stats">
+                323 views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/hq720 (4).webp">
+            <div class="video-time">06:37</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/profile_kovca.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                KK vojvodina - KK Novi Pazar press konferencija nakon utakmice korisnika Stefan Kovacevic
+              </p>
+              <p class="video-author">
+                Stefan Kovacevic
+              </p>
+              <p class="video-stats">
+                14M views &#183; 11 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/hq720 (5).webp">
+            <div class="video-time">12:53</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/profile_future.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                15 AMAZING CONCEPTS OF THE FUTURE корисника TechZone
+              </p>
+              <p class="video-author">
+                TechZone
+              </p>
+              <p class="video-stats">
+                2.8M views &#183; 3 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/hqdefault.webp">
+            <div class="video-time">02:42</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/profile_studiob.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Bez đačke stipendije zbog formalnosti
+              </p>
+              <p class="video-author">
+                TVStudioB
+              </p>
+              <p class="video-stats">
+                17M views &#183; 3 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/hq720 (6).webp">
+            <div class="video-time">03:35</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/profile_invivo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                IN VIVO - KRALJICA MATURE (OFFICIAL VIDEO)
+              </p>
+              <p class="video-author">
+                Visual Fever
+              </p>
+              <p class="video-stats">
+                17.2B views &#183; 5 years ago hq720 (7).webp
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/hq720 (7).webp">
+            <div class="video-time">12:53</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/profile_balkaninfo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                INTERVJU: Miroljub Petrović - Polupana omladina je demonizovana i zato voli žurke! (25.8.2018)
+              </p>
+              <p class="video-author">
+                BALKAN INFO - Zvanični kanal
+              </p>
+              <p class="video-stats">
+                2.6M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/hq720 (8).webp">
+            <div class="video-time">11:36</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/profile_mercedes.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Mercedes S Class S500 2023 Test Drive
+              </p>
+              <p class="video-author">
+                Alaatin61
+              </p>
+              <p class="video-stats">
+                12M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/hq720 (9).webp">
+            <div class="video-time">04:24</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/profile_tomhardy.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                What's the naughtiest thing you've ever done?":  Kids Ask Tom Hardy Difficult Questions
+              </p>
+              <p class="video-author">
+                BBC Radio 1
+              </p>
+              <p class="video-stats">
+                4.9M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/hq720 (10).webp">
+            <div class="video-time">25:16</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/profile_3b1b.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                But how does bitcoin actually work?
+              </p>
+              <p class="video-author">
+                3Blue1Brown
+              </p>
+              <p class="video-stats">
+                14M views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
