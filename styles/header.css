@@ -169,7 +169,7 @@
   font-size: 12px;
   bottom: -30px;
   opacity: 0;
-  transition: opacity 0.15s;
+  transition: opacity 0.2s;
   pointer-events: none;
   white-space: nowrap;
 }
@@ -181,4 +181,12 @@
 .notifications-icon-container:hover .tooltip,
 .youtube-apps-container:hover .tooltip {
   opacity: 1;
+}
+
+.search-button:active,
+.voice-search-button:active,
+.upload-icon-container:active,
+.notifications-icon-container:active,
+.youtube-apps-container:active {
+  opacity: 0.6;
 }

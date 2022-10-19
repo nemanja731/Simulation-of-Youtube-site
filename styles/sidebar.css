@@ -23,6 +23,9 @@
   background-color: rgb(235, 235, 235);
 }
 
+.sidebar-link:active {
+  background-color: rgb(215, 215, 215);
+}
 .sidebar-link img {
   height: 24px;
   margin-bottom: 4px;
