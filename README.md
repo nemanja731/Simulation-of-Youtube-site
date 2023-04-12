@@ -1,2 +1,3 @@
-# youtube.com
-Clone of "youtube.com" home page
+# Simulation-of-Youtube-site
+
+Simulation of the homepage of **youtube.com** :notes:
